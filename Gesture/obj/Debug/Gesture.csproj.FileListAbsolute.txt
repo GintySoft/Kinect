@@ -1,0 +1,5 @@
+C:\Users\cmcginty\Documents\code\kinect\Gesture\bin\Debug\Gesture.dll
+C:\Users\cmcginty\Documents\code\kinect\Gesture\bin\Debug\Gesture.pdb
+C:\Users\cmcginty\Documents\code\kinect\Gesture\obj\Debug\Gesture.csprojResolveAssemblyReference.cache
+C:\Users\cmcginty\Documents\code\kinect\Gesture\obj\Debug\Gesture.dll
+C:\Users\cmcginty\Documents\code\kinect\Gesture\obj\Debug\Gesture.pdb

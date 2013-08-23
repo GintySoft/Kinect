@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="GintySoft.Kinect.SkeletalViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="358" d:DesignWidth="455">
+    <Grid Width="462" Height="358" Name="grid" >
+        <ContentPresenter Content="{Binding Canvas}" Name="skeletalContent" Focusable="True" Margin="0,0,12,0"></ContentPresenter>
+    </Grid>
+</UserControl>

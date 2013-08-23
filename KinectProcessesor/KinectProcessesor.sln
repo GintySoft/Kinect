@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "KinectProcessesor", "KinectProcessesor\KinectProcessesor.ccproj", "{ADBB1A34-0E7C-4DD8-BB00-89A594978A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectProcessor", "KinectProcessor\KinectProcessor.csproj", "{80359A38-292C-41FA-846F-2E04967D55DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBB1A34-0E7C-4DD8-BB00-89A594978A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBB1A34-0E7C-4DD8-BB00-89A594978A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBB1A34-0E7C-4DD8-BB00-89A594978A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBB1A34-0E7C-4DD8-BB00-89A594978A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80359A38-292C-41FA-846F-2E04967D55DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80359A38-292C-41FA-846F-2E04967D55DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80359A38-292C-41FA-846F-2E04967D55DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80359A38-292C-41FA-846F-2E04967D55DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

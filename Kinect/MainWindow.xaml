@@ -1,0 +1,33 @@
+﻿<Window x:Class="GintySoft.Kinect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:GintySoft.Kinect"
+        Title="MainWindow" Height="830" Width="1103">
+    <Grid Width="1085" Height="1003">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="340" />
+            <ColumnDefinition Width="19*" />
+            <ColumnDefinition Width="726*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="315*" />
+            <RowDefinition Height="689" />
+        </Grid.RowDefinitions>
+        <Canvas Height="282" HorizontalAlignment="Left" Margin="6,9,0,0" Name="canvas1" VerticalAlignment="Top" Width="328" >
+            <my:ShowKinectVideoStream x:Name="Video" Height="276"></my:ShowKinectVideoStream>
+        </Canvas>
+        <Canvas Grid.Column="2" Height="282" HorizontalAlignment="Left" Margin="18,11,0,0" Name="canvas2" VerticalAlignment="Top" Width="704">
+            <my:ShowPlayerDepthStream x:Name="PlayerDepth" Height="274" Width="698"></my:ShowPlayerDepthStream>
+        </Canvas>
+        <Canvas Grid.Column="2" Grid.Row="1" Height="445" HorizontalAlignment="Left" Margin="18,20,0,0" Name="canvas3" VerticalAlignment="Top" Width="704" >
+            <my:SkeletalViewer x:Name="Skeletal" Height="438" Width="698"></my:SkeletalViewer>
+        </Canvas>
+        <Canvas Grid.Row="1" Height="81" HorizontalAlignment="Left" Margin="12,20,0,0" Name="canvas4" VerticalAlignment="Top" Width="294" >
+            <my:SpeechRecognition x:Name="speech" Height="68"></my:SpeechRecognition>
+        </Canvas>
+        <Canvas Grid.Row="1" Height="355" HorizontalAlignment="Left" Margin="12,123,0,0" Name="facialCanvas" VerticalAlignment="Top" Width="322" >
+            
+            
+        </Canvas>
+    </Grid>
+</Window>
